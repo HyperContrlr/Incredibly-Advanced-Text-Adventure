@@ -1,4 +1,6 @@
-﻿namespace Advanced_Text_Adventure
+﻿using System.Text.Json.Serialization;
+
+namespace Advanced_Text_Adventure
 {
     internal partial class Program
     {
