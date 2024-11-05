@@ -7,6 +7,17 @@ namespace Advanced_Text_Adventure
     [Serializable]
     internal partial class Program
     {
+        //Reference async function
+         
+    /*  public static async Task<string> LoadSaveData()
+        {
+            FileStreamOptions options = new() { Mode = FileMode.OpenOrCreate };
+            using StreamReader readFile = new("BigFile.txt", options);
+
+            string contents = await readFile.ReadToEndAsync();
+            return contents;
+        }
+    */
         public static petBit MyBit;
         static void Main(string[] args)
         {
@@ -97,7 +108,6 @@ namespace Advanced_Text_Adventure
             System.Threading.Thread.Sleep(1000);
             Console.WriteLine("Good luck");
             System.Threading.Thread.Sleep(1000);
-
         }
     }
 }
